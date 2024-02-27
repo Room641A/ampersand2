@@ -3,6 +3,41 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.feature_extraction.text import CountVectorizer
 
+import pandas as pd
+
+class SpreadsheetHandler:
+    def __init__(self) :
+        self.UserDataFrame = None
+    
+    def process_spreadsheet(self, file_path) :
+        try:
+            if file_path.endswith('.json') :
+                self.UserDataFrame = pd.read_json(file_path)
+            elif file_path.endswith('.xlsx') :
+                self.UserDataFrame = pd.read_excel(file_path)
+            elif file_path.endswith('.xls') :
+                self.UserDataFrame = pd.read_excel(file_path)
+            elif file_path.endswith('.csv') :
+                self.UserDataFrame = pd.read_csv(file_path)
+            else:
+                raise ValueError("Unsupported file format. Please provide a .json, .xlsx, .xls, or .csv file.")
+            
+            return True
+        
+        except Exception as e :
+            print(f"Error: {e}")
+            self.df = None
+            return False
+
+handler = SpreadsheetHandler()
+file_path = input("Enter the path to the spreadsheet file: ")
+if handler.accept_spreadsheet(file_path) :
+    print("Spreadsheet loaded successfully:")
+    print(handler.df)
+else:
+    print("Failed to load DataFrame.")
+
+
 class DataValidator:
     """Handles data validation tasks."""
     
@@ -17,7 +52,7 @@ class DataValidator:
         pass
 
 class DataCleaner:
-    """Performs data cleaning operations."""
+    # Performs data cleaning operations.
     
     def handle_missing_values(self, df: pd.DataFrame) -> pd.DataFrame:
         """Imputes or removes missing values."""
