@@ -1,0 +1,10 @@
+#API management
+fastapi
+uvicorn
+
+# Azure
+
+
+# Data Science
+pandas
+numpy

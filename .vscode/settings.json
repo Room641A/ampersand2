@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2aa91f00-6db5-433a-b1e7-761731825ce7/resourceGroups/asterisk_group/providers/Microsoft.Web/sites/asterisk",
+    "appService.deploySubpath": "."
+}
