@@ -25,7 +25,7 @@ openai
 gunicorn
 django-environ
 scikit-learn
-# matplotlib
+matplotlib
 # dash
 # jupyter
 # azure-cli # to interact with Azure resources through the command line
