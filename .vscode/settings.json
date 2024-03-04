@@ -1,5 +1,17 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/2aa91f00-6db5-433a-b1e7-761731825ce7/resourceGroups/asterisk_group/providers/Microsoft.Web/sites/asterisk",
     "appService.deploySubpath": ".",
-    "python.pythonPath": "/Users/colinmccormick/anaconda3/bin/python"
+    "python.pythonPath": "/Users/colinmccormick/anaconda3/bin/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "ampersand_psql",
+            "database": "ampersand_db",
+            "username": "postgres"
+        }
+    ]
 }
