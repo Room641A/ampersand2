@@ -23,7 +23,7 @@ uvicorn
 spacy
 openai
 gunicorn
-django-envrion
+django-environ
 scikit-learn
 matplotlib
 dash
