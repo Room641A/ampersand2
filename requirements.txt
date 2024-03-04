@@ -1,10 +1,23 @@
-#API management
+annotated-types
+anyio
+asgiref
+click
+Django
 fastapi
-uvicorn
-
-# Azure
-
-
-# Data Science
-pandas
+h11
+idna
 numpy
+pandas
+psycopg2
+pydantic
+pydantic_core
+python-dateutil
+pytz
+six
+sniffio
+sqlparse
+starlette
+typing_extensions
+tzdata
+uvicorn
+spacy
