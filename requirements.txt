@@ -26,8 +26,9 @@ gunicorn
 django-environ
 scikit-learn
 matplotlib
-# dash
-# jupyter
+dash
+jupyter
+jupyterlab
 # azure-cli # to interact with Azure resources through the command line
 # django-storages # If you're using Azure Block Storage for static files and media
 # boto3 # required by django-storages for S3 and can be used for Azure as well despite AWS-centric naming
