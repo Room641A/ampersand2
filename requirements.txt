@@ -35,15 +35,3 @@ requests # to make HTTP requests if openai is not sufficient
 python-dotenv # to manage Ampersand's setting securely in .env files
 djangorestframework # for building REST APIs as part of application
 django-webpack-loader # custom CSS design system; if you are building your CSS and JavaScript using Webpack
-xgboost
-lightgbm
-tensorflow
-keras
-torch
-nltk
-transformers
-seaborn
-plotly
-flask
-dvc
-scipy
