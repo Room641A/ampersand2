@@ -24,7 +24,7 @@ spacy
 openai
 gunicorn
 django-environ
-# scikit-learn
+scikit-learn
 # matplotlib
 # dash
 # jupyter
