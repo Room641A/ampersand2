@@ -24,14 +24,14 @@ spacy
 openai
 gunicorn
 django-environ
-scikit-learn
-matplotlib
-dash
-jupyter
-azure-cli # to interact with Azure resources through the command line
-django-storages # If you're using Azure Block Storage for static files and media
-boto3 # required by django-storages for S3 and can be used for Azure as well despite AWS-centric naming
-requests # to make HTTP requests if openai is not sufficient
-python-dotenv # to manage Ampersand's setting securely in .env files
-djangorestframework # for building REST APIs as part of application
-django-webpack-loader # custom CSS design system; if you are building your CSS and JavaScript using Webpack
+# scikit-learn
+# matplotlib
+# dash
+# jupyter
+# azure-cli # to interact with Azure resources through the command line
+# django-storages # If you're using Azure Block Storage for static files and media
+# boto3 # required by django-storages for S3 and can be used for Azure as well despite AWS-centric naming
+# requests # to make HTTP requests if openai is not sufficient
+# python-dotenv # to manage Ampersand's setting securely in .env files
+# djangorestframework # for building REST APIs as part of application
+# django-webpack-loader # custom CSS design system; if you are building your CSS and JavaScript using Webpack
