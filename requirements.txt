@@ -39,7 +39,7 @@ xgboost
 lightgbm
 tensorflow
 keras
-pytorch
+torch
 nltk
 transformers
 seaborn
